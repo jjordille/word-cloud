@@ -1,0 +1,30 @@
+.greeting{
+  font-family: Helvetica;
+  color: green;
+  display: block;
+  text-align: center;
+}
+
+.greeting h1 {
+  font-size: 32px;
+}
+
+div.messageContainer {
+  display: block;
+  text-align: center;
+}
+
+div.submit {
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+  padding-bottom: 25px;
+}
+
+#container {
+  margin-top: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}

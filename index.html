@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="./main.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Word Cloud Generator</title>
+  </head>
+  <body>
+    <div class="greeting">
+      <h1>Welcome to the Word Cloud Generator</h1>
+      <p>To generate your own word cloud, simply type or paste a block of <br>
+        text into the input box and click submit :) </p>
+    </div>
+
+    <div class="messageContainer">
+      <textarea id="message" rows="8" cols="80" placeholder="enter your text here"></textarea>
+    </div>
+
+    <div class="submit" id="submit-button">
+      <button type="button" value="submit" onclick="createNewWordCloud()">Generate Word Cloud</button>
+    </div>
+
+    <div id="container">
+
+    </div>
+
+    <script type="text/javascript" src="./wordCloud.js"></script>
+
+  </body>
+</html>
